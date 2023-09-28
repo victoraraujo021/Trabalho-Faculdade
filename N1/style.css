@@ -1,0 +1,77 @@
+/* Estilo para a Navbar */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #007bff; /* Cor do ícone do botão Toggle */
+}
+
+.navbar-nav .nav-link {
+    font-size: 18px;
+    color: #333; /* Cor dos links da Navbar */
+}
+
+/* Estilo para o Carousel */
+.carousel-inner img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    font-size: 30px; /* Tamanho dos ícones de navegação */
+    background-color: transparent; /* Fundo transparente para os ícones de navegação */
+    color: #007bff; /* Cor dos ícones de navegação */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #007bff; /* Cor do ícone de navegação ativo */
+    border-radius: 50%;
+}
+
+/* Estilo para o conteúdo abaixo do Carousel */
+.container {
+    padding: 20px;
+}
+
+.container img.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+}
+
+.container h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.container p {
+    font-size: 16px;
+}
+
+/* Estilo para o Footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 15px 0;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.container .row .card {
+    border: 2px solid red !important;
+    border-radius: 8px;
+}

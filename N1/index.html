@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vili Motos</title>
+    <!-- Inclua os arquivos CSS do Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Adicione seu arquivo CSS personalizado, se necessário -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Vili Motos</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/foto1.webp" class="d-block w-100" alt="Imagem 1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/foto2.avif" class="d-block w-100" alt="Imagem 2">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </a>
+    </div>
+
+    <!-- Conteúdo abaixo do Carousel -->
+    <div class="container mt-4" id="sobre">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="img/foto3.webp" class="img-fluid" alt="Imagem 4">
+            </div>
+            <div class="col-md-6">
+                <h2>Bem-vindo ao Meu Site de motos</h2>
+                <p>A VILI MOTOS FOI FUNDADA A 29 ANOS COM O OBJETIVO DE SER SUA PARCEIRA NA COMPRA, VENDA OU TROCA DE
+                    MOTOS. TRABALHAMOS COM VEÍCULOS USADOS COM EXCELENTES TAXAS DE FINANCIAMENTO..</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção com retângulos -->
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body" style="border: 2px solid blue    !important;
+                border-radius: 8px;">
+                    <h3 class="card-title">Missão</h3>
+                    <p class="card-text">QUALIFICAR CONSTANTEMENTE NOSSO ATENDIMENTO E A SATISFAÇÃO DE NOSSOS CLIENTES.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body" style="border: 2px solid blue !important;
+                border-radius: 8px;">
+                    <h3 class="card-title">Visão</h3>
+                    <p class="card-text">PRIORIZAR O BOM ATENDIMENTO A FIM DE FIDELIZAR OS NOSSOS CLIENTES. </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body" style="border: 2px solid blue !important;
+                border-radius: 8px;">
+                    <h3 class="card-title">Valores</h3>
+                    <p class="card-text">ÉTICA, COMPROMETIMENTO E RESPONSABILIDADE COM NOSSOS CLIENTES.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Seção de Ofertas Recentes -->
+    <section class="container mt-4">
+        <h2 class="text-center">Ofertas Recentes</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="img/oferta1.jpg" class="card-img-top oferta-img" alt="Oferta 1" style=" max-width: 100%; 
+                height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">TIGER 800 XRT</h5>
+                        <p class="card-text">R$ 58.500,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="img/oferta2.jpg" class="card-img-top oferta-img" alt="Oferta 2" style=" max-width: 100%; 
+                height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">NAMAX 160</h5>
+                        <p class="card-text">R$ 19.500,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="img/oferta4.jpg" class="card-img-top oferta-img" alt="Oferta 3" style=" max-width: 100%; 
+                height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">HONDA BIZ 125</h5>
+                        <p class="card-text">R$ 15.500,00</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card mb-4">
+                    <img src="img/oferta 4.jpg" class="card-img-top oferta-img" alt="Oferta 4" style=" max-width: 100%; 
+                height: auto;">
+                    <div class="card-body">
+                        <h5 class="card-title">HONDA BROS 160 ESSD</h5>
+                        <p class="card-text">R$ 18.500,00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção "Precisa de Ajuda?" -->
+    <section class="container mt-4">
+        <h2 class="text-center">Precisa de Ajuda?</h2>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card text-black bg-transparent mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Precisa de financiamento?</h5>
+                        <p class="card-text">Preencha uma ficha de financiamento para consultarmos as possibilidades
+                            para você. Estamos esperando o seu cadastro.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-black bg-transparent mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Quer relatar um problema?</h5>
+                        <p class="card-text">Teve algum problema com o seu carro comprado em nossa loja? Entre em
+                            contato conosco e iremos resolver o seu problema!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-black bg-transparent mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Encontrar um novo veículo</h5>
+                        <p class="card-text">Nosso estoque está cheio de veículos e um deles pode lhe interessar. Venha
+                            dar uma olhada, e saia de carro novo.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card text-black bg-transparent mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Conheça nossa história</h5>
+                        <p class="card-text">Estamos no mercado há um tempo e buscamos sempre lhe proporcionar a melhor
+                            experiência. Queremos você satisfeito!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer  -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <ul class="nav nav-tabs justify-content-center" id="footerTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active text-red" id="endereco-tab" data-bs-toggle="tab" href="#endereco"
+                        role="tab" aria-controls="endereco" aria-selected="true">Endereço</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link text-red" id="redes-sociais-tab" data-bs-toggle="tab" href="#redes-sociais"
+                        role="tab" aria-controls="redes-sociais" aria-selected="false">Redes Sociais</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link text-red" id="funcionamento-tab" data-bs-toggle="tab" href="#funcionamento"
+                        role="tab" aria-controls="funcionamento" aria-selected="false">Funcionamento</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link text-red" id="contato-tab" data-bs-toggle="tab" href="#contato" role="tab"
+                        aria-controls="contato" aria-selected="false">Entre em Contato</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="footerTabContent">
+                <div class="tab-pane fade show active" id="endereco" role="tabpanel" aria-labelledby="endereco-tab">
+                    <p>Avenida Dos Autonomistas 3076<br>Osasco, Sao Paulo<br>CEP: 06090-015</p>
+                </div>
+                <div class="tab-pane fade" id="redes-sociais" role="tabpanel" aria-labelledby="redes-sociais-tab">
+                    <p>Siga-nos nas redes sociais:<br>
+                        <a href="https://www.facebook.com/fernando.emanuel.96199">Facebook</a><br>
+                        <a href="#">Twitter</a><br>
+                        <a href="https://www.instagram.com/vilimotos/?igshid=YmMyMTA2M2Y%3D">Instagram</a>
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="funcionamento" role="tabpanel" aria-labelledby="funcionamento-tab">
+                    <p>Nossos horários de funcionamento:<br>
+                        Segunda a Sexta: 9h - 18h<br>
+                        Sábado: 9h - 15h<br>
+                        Domingo: Fechado</p>
+                </div>
+                <div class="tab-pane fade" id="contato" role="tabpanel" aria-labelledby="contato-tab">
+                    <p>Entre em contato conosco:<br>
+                        Telefone: (11) 9.3681-1035<br>
+                        Email: vilimotos@yahoo.com.br<br>
+                        Endereço: Avenida Dos Autonomistas 3076, Osasco</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <!-- Inclua os arquivos JavaScript do Bootstrap (obrigatório) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
